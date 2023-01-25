@@ -1,6 +1,12 @@
 h1{
     width: 100%;
     text-align: center;
+    padding: 40px 0px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .cursos-lista img{
@@ -81,4 +87,13 @@ footer{
     font-size: 16px;
     margin-bottom: 20px;
     margin-top: 200px;
+}
+.cursos-lista{
+    flex-direction: column;
+    padding: 0px;
+    gap: 30px;
+    margin-top: -40px;
+}
+.enfermtxt{
+    flex-wrap: wrap;
 }
