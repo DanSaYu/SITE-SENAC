@@ -15,7 +15,8 @@ main {
 
 .ulul{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 0px;
 }
 
 .tl {
@@ -55,6 +56,7 @@ main {
 
 .ulmedia{
     margin-left: -40px;
+    gap: 30px;
 }
 
 footer{
@@ -64,4 +66,23 @@ footer{
     font-size: 16px;
     margin-bottom: 20px;
     margin-top: 200px;
+}
+
+.map-item{
+    grid-row: 3 / 5;
+    grid-column-start: 2;
+}
+
+.app-item{
+    grid-column: 1 / -1;
+}
+
+.tlp{
+    color:rgb(136, 136, 136)
+}
+
+@media screen and (max-width: 1100px){
+    .ulul{
+        grid-template-columns: 1fr;
+    }
 }
