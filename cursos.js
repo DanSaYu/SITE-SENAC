@@ -35,9 +35,4 @@ var thewitcher = {
 
 var cursos = [programacao, administracao, enfermagem];
 
-
-
-
-
-
-
+cursos.forEach(curso => console.log(curso.titulo + ": " + curso.topicos))

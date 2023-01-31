@@ -1,12 +1,83 @@
-var botao = document.getElementById("botao");
 
-botao.addEventListener('click', () => {
-    var valor = prompt();
-    var valor1 = prompt();
-    alert(valor * valor1 * 5);
-});
+/*var nome = prompt("Digite seu nome: ")
+var curso = prompt("Digite seu curso: ")
+var frase = (nome + " faz o curso " + curso)
 
-var nome = prompt("Qual o seu nome?");
+console.log(frase)
+var idade = prompt("Digite sua idade:")
+
+    if (idade >= 18){
+        console.log("Você é maior de idade!!")
+    }
+    else{
+        console.log("Você é menor de idade!!")
+    }
+
+var nota = prompt("Digite sua nota")
+    if (nota >= 60){
+        console.log("Aprovado")
+    }
+    else{
+        console.log("Reprovado")
+    }
+
+
+var peso = prompt("Digite seu peso: ")
+var altura = prompt("Digite sua altura")
+var imc = (peso / (altura **2))
+
+    if (imc <= 18.5){
+        console.log("Magreza")
+    }
+    else if (imc <= 24.9){
+        console.log("Normal")
+    }
+    else if (imc <= 29.9){
+        console.log("Sobrepseo")
+    }
+    else if (imc <= 39.9){
+        console.log("Obesidade")
+    }
+    else if (imc <= 40){
+        console.log("Obesidade Grave")
+    }
+    else if (imc > 40){
+        console.log("QUILOS MORTAIS")
+    }*/
+
+const alunos = ["Pedro", "Luiz Felipe", "Giovanni", "Arthur", "Vanderlei", "João Vitor", "Cecília", "Maria Eduarda", "João"]
+
+alunos.forEach(Element => console.log(Element))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*var nome = prompt("Qual o seu nome?");
 
 var mesInformado = parseInt(prompt(nome + "Qual o mes do seu nascimento? (informe de forma numerica)"));
 
@@ -32,64 +103,63 @@ var ano = 12;
 while(mesInformado <= ano){
 
     if(mesInformado == 1 && diaDeNascimento <= 19) {
-        alert("Seu signo e " + mesJaneiro);
+        console.log("Seu signo e " + mesJaneiro);
         break;
     }
 
     else if(mesInformado == 2 && diaDeNascimento <= 18) {
-        alert("Seu signo e " + mesFevereiro);
+        console.log("Seu signo e " + mesFevereiro);
         break;
     }
 
     else if(mesInformado == 3 && diaDeNascimento <= 20) {
-        alert("Seu signo e " + mesMarco);
+        console.log("Seu signo e " + mesMarco);
         break;
     }
 
     else if(mesInformado == 4 && diaDeNascimento <= 19) {
-        alert("Seu signo e " + mesAbril);
+        console.log("Seu signo e " + mesAbril);
         break;
     }
 
     else if(mesInformado == 5 && diaDeNascimento <= 20) {
-        alert("Seu signo e " + mesMaio);
+        console.log("Seu signo e " + mesMaio);
         break;
     }
 
     else if(mesInformado == 6 && diaDeNascimento <= 20) {
-        alert("Seu signo e " + mesJunho);
+        console.log("Seu signo e " + mesJunho);
         break;
     }
 
     else if(mesInformado == 7 && diaDeNascimento <= 22) {
-        alert("Seu signo e " + mesJulho);
+        console.log("Seu signo e " + mesJulho);
         break;
     }
 
     else if(mesInformado == 8 && diaDeNascimento <= 22) {
-        alert("Seu signo e " + mesAgosto);
+        console.log("Seu signo e " + mesAgosto);
         break;
     }    
 
     else if(mesInformado == 9 && diaDeNascimento <= 22) {
-        alert("Seu signo e " + mesSetembro);
+        console.log("Seu signo e " + mesSetembro);
         break;
     }
 
     else if(mesInformado == 10 && diaDeNascimento <= 22) {
-        alert("Seu signo e " + mesOutubro);
+        console.log("Seu signo e " + mesOutubro);
         break;
     }
 
     else if(mesInformado == 11 && diaDeNascimento <= 21) {
-        alert("seu signo e " + mesNovembro);
+        console.log("seu signo e " + mesNovembro);
         break;
     }
 
     else if(mesInformado == 12 && diaDeNascimento <= 21) {
-        alert("seu signo e " + mesDezembro);
+        console.log("seu signo e " + mesDezembro);
         break;
     }
 }
-
-alert("FIM");
+    console.log("FIM");*/
