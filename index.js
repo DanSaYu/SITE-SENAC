@@ -43,12 +43,11 @@ var imc = (peso / (altura **2))
     }
     else if (imc > 40){
         console.log("QUILOS MORTAIS")
-    }*/
+    }
 
 const alunos = ["Pedro", "Luiz Felipe", "Giovanni", "Arthur", "Vanderlei", "João Vitor", "Cecília", "Maria Eduarda", "João"]
 
-alunos.forEach(Element => console.log(Element))
-
+alunos.forEach(Element => console.log(Element))*/
 
 
 

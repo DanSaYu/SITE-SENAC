@@ -16,7 +16,7 @@
     <header>
         <a href="http://127.0.0.1:5500/index.html"><img class="senaclogo" src="/img/logo-senac1.png" alt="senaclogoo"></a>
             <nav>
-                <ul>
+                <ul id="btnlista">
                         <li><a href="index.html">Início</a></li>
                         <li><a href="cursos.html">Cursos</a></li>
                         <li><a href="contato.html">Contato</a></li>
@@ -25,15 +25,15 @@
             </nav>
     </header>
     <main>
-        <h1>Nossos cursos</h1>
-        <ul class="cursos-lista">
+        <h1 id="titulo">Nossos cursos</h1>
+        <ul class="cursos-lista" id="cursos-lista">
             <li class="cursos-item"><img class="programaimg" src="/img/programacao.jpg" alt="Imgem de um código na tela de um notbook">
                 <div class="programtxt">
                     <span></span>
-                    <h2>Programação</h2>
+                    <h2 id="programh2">Programação</h2>
                     <p>Curso para quem tem interesse de ingressar na área de programação.
                     </p>
-                    <ul>
+                    <ul class= enfermtxt id="topics">
                         <li class="txtbox">Tecnologia</li>
                         <li class="txtbox">Design UI/UX</li>
                         <li class="txtbox">Desenvolvimento Web</li>
@@ -43,11 +43,11 @@
             </li>
             <li class="cursos-item"><img class="programaimg" src="img/administracao.jpg" alt="Imgem de um código na tela de um notbook">
                 <div class="programtxt">
-                    <span></span>
+                    <span id="span2"></span>
                     <h2>Administrção</h2>
                     <p>Direcionado para quem quer trabalhar no setor administrativo e com finanças.
                     </p>
-                    <ul>
+                    <ul class="enfermtxt">
                         <li class="txtbox">Administração</li>
                         <li class="txtbox">Marketing</li>
                         <li class="txtbox">Finanças e Comtabilidade</li>
@@ -66,12 +66,12 @@
                         <li class="txtbox">Primeiros socorros</li>
                         <li class="txtbox">Ministração de medicamentos</li>
                     </ul>
-                    <a href="#">Saiba Mais</a>
+                    <a href="#" id="saibamais">Saiba Mais</a>
                 </div>
             </li>
         </ul>
     </main>
-    <footer>
+    <footer id="foot">
         @Created by Dvorakx
     </footer>
     <script src="cursos.js"></script>
