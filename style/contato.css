@@ -67,7 +67,7 @@ footer{
     margin-bottom: 20px;
     margin-top: 200px;
 }
-
+ 
 .map-item{
     grid-row: 3 / 5;
     grid-column-start: 2;
@@ -81,8 +81,11 @@ footer{
     color:rgb(136, 136, 136)
 }
 
-@media screen and (max-width: 1100px){
+@media screen and (max-width: 800px){
     .ulul{
         grid-template-columns: 1fr;
+    }
+    .map-item{
+        grid-column-start: 1;
     }
 }

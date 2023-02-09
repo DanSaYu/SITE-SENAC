@@ -26,7 +26,7 @@ var enfermagem = {
     topicos: ["Biosegurança", "Primeiros socorros", "Ministração de medicamentos"]
 }
 var cursos = [programacao, administracao, enfermagem];
-
+    
 
 cursos.forEach(curso => {
     var listaitem = document.createElement("li");
@@ -40,7 +40,7 @@ cursos.forEach(curso => {
         <h2 id="programh2">${curso.titulo}</h2>
         <p>${curso.descrição}
         </p>
-        <ul>
+        <ul class= enfermtxt>
            ${topicos}
         </ul>
         <a href="#">Saiba Mais</a>

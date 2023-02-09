@@ -98,6 +98,8 @@ footer{
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1100px){
-    
+@media screen and (max-width: 800px){
+    .cursos-lista li{
+        grid-template-columns: 1fr;
+    }
 }
